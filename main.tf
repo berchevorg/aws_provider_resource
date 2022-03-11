@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-
+  max_retries = 3
   default_tags {
     tags = {
       Owner = "Georgiman"
